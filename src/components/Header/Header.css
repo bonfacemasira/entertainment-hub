@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100vw;
+    font-size: 4vw;
+    position: fixed;
+    padding: 0.5rem;
+}
+.title{
+    width: 50vw;
+    margin: auto;
+    cursor: pointer;
+    text-align: center;
+}
