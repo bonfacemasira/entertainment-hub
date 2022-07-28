@@ -1,6 +1,16 @@
 .Footer{
-    /* margin: 1rem; */
-    text-decoration: none;
-    justify-content: center;
-    margin: auto;
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+    width: 100vw;
+    border: 1px solid black;
+    display: grid;
+    place-content: center;
 }
+
+/* .footer-content{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+} */

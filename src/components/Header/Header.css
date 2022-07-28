@@ -8,10 +8,13 @@
     font-size: 4vw;
     position: fixed;
     padding: 0.5rem;
+    border: 1px solid black;
+    display: grid;
+    place-content: center;
 }
-.title{
+/* .title{
     width: 50vw;
     margin: auto;
     cursor: pointer;
     text-align: center;
-}
+} */

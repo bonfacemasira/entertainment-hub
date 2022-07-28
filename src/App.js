@@ -15,8 +15,8 @@ import Favorites from './pages/Favorites/Favorites';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <PageContent />
+      <div><Header /></div>
+      <div><PageContent /></div>
       <div>
         <Footer />
         <Routes>
