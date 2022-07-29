@@ -5,7 +5,6 @@ import { NavLink } from 'react-router-dom';
 function Footer() {
     const linkStyles = {
         textDecoration: 'none',
-        // color: 'white',
         display: 'inline-block',
         padding: '1rem',
         margin: '0.1rem',

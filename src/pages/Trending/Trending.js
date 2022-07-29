@@ -7,6 +7,10 @@ function Trending() {
     // const [page, setPage] = useState(1)
 
     useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
         fetch(`https://api.themoviedb.org/3/trending/all/day?api_key=8d07a996f1bf5f9cee356b413d8fa485&page=1`)
         .then(res => res.json())
         .then(data => setTrending(data.results))

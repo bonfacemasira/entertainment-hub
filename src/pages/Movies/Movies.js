@@ -6,6 +6,10 @@ function Movies() {
     const [movies, setMovies] = useState([]);
 
     useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
         fetch(`https://api.themoviedb.org/3/discover/movie?api_key=8d07a996f1bf5f9cee356b413d8fa485&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false`)
         .then(res => res.json())
         .then(data => setMovies(data.results))

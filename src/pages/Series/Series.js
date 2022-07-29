@@ -6,6 +6,10 @@ function Series() {
     const [series, setSeries] = useState([]);
 
     useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
         fetch(`https://api.themoviedb.org/3/discover/tv?api_key=8d07a996f1bf5f9cee356b413d8fa485&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false`)
         .then(response => response.json())
         .then(data => setSeries(data.results))
