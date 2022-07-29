@@ -1,0 +1,17 @@
+.single-content {
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    /* background-color: #282c34; */
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .image{
+    border-radius: 10px;
+    width: 100%;
+  }

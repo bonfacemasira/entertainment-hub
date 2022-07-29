@@ -10,6 +10,7 @@ import Movies from './pages/Movies/Movies';
 import Series from './pages/Series/Series';
 import Search from './pages/Search/Search';
 import Favorites from './pages/Favorites/Favorites';
+import SingleContent from './components/SingleContent/SingleContent';
 
 function App() {
   return (
