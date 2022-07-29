@@ -8,7 +8,6 @@ function SingleContent({id, poster, title, date, media_type, rating}) {
                 <img className="image" src={source} alt={title} />
             </div>
             <div className="description-container">
-                <p>{media_type}</p>
                 <h2>{title}</h2>
                 <p>{date}</p>
                 <p>{rating}</p>

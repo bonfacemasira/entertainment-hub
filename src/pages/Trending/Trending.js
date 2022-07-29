@@ -21,8 +21,8 @@ function Trending() {
                         key={trend._id}
                         id={trend._id}
                         poster={trend.poster_path}
-                        title={trend.title }
-                        date={trend.release_date}
+                        title={trend.title || trend.name}
+                        date={trend.release_date || trend.first_air_date}
                         media_type={trend.media_type}
                         rating={trend.vote_average}
                     />
