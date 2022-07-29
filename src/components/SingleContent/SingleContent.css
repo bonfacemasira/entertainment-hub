@@ -15,3 +15,16 @@
     border-radius: 10px;
     width: 100%;
   }
+
+  .title{
+    text-align: center;
+  }
+
+  .rating{
+    font-weight: bold;
+  }
+
+  .holder{
+    display: flex;
+    justify-content: space-between;
+  }
