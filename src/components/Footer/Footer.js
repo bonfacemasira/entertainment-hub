@@ -18,7 +18,7 @@ function Footer() {
     return (
         <div className="Footer">
             <div className="footer-content">
-            <NavLink style={linkStyles} activeStyle={{backgroundColor: 'black',}} to="/">Trending</NavLink>
+            <NavLink style={linkStyles} to="/">Trending</NavLink>
             <NavLink style={linkStyles} to="/movies">Movies</NavLink>
             <NavLink style={linkStyles} to="/series">TV Series</NavLink>
             <NavLink style={linkStyles} to="/search">Search</NavLink>

@@ -12,9 +12,6 @@
     display: grid;
     place-content: center;
 }
-/* .title{
-    width: 50vw;
-    margin: auto;
+.title{
     cursor: pointer;
-    text-align: center;
-} */
+}

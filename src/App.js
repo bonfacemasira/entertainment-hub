@@ -11,20 +11,18 @@ import Series from './pages/Series/Series';
 import Search from './pages/Search/Search';
 import Favorites from './pages/Favorites/Favorites';
 
-
 function App() {
   return (
     <div className="App">
       <div><Header /></div>
-      <div><PageContent /></div>
       <div>
         <Footer />
         <Routes>
-          <Route exact path="/" component={Trending} />
-          <Route path="/movies" component={Movies} />
-          <Route path="/series" component={Series} />
-          <Route path="/search" component={Search} />
-          <Route path="/favorites" component={Favorites} />
+          <Route exact path="/" element={<Trending />} />
+          <Route path="/movies" element={<Movies />} />
+          <Route path="/series" element={<Series />} />
+          <Route path="/search" element={<Search />} />
+          <Route path="/favorites" element={<Favorites />} />
         </Routes>
       </div>
     </div>
