@@ -14,7 +14,7 @@ function Trending() {
     return(
         <div>
             {/* <span className="title">Trending</span> */}
-            <h1>Trending</h1>
+            <h1 className='section-title'>Trending</h1>
             <div className="trending">
                 {trending.map((trend) => (
                     <SingleContent 

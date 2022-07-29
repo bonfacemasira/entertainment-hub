@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import SingleContent from '../../components/SingleContent/SingleContent';
-import './Series.css';
+// import './Series.css';
 
 function Series() {
     const [series, setSeries] = useState([]);
@@ -13,7 +13,7 @@ function Series() {
 
     return (
         <div>
-            <h1>Discover TV Series</h1>
+            <h1 className="section-title">Discover TV Series</h1>
             <div className="trending">
                 {series.map((serie) => (
                     <SingleContent 
