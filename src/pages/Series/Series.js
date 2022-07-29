@@ -13,7 +13,6 @@ function Series() {
 
     return (
         <div>
-            {/* <span className="title">Trending</span> */}
             <h1>Discover TV Series</h1>
             <div className="trending">
                 {series.map((serie) => (
