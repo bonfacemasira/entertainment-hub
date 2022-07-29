@@ -13,5 +13,6 @@
     place-content: center;
 }
 .title{
+    color: white;
     cursor: pointer;
 }
