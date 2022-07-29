@@ -11,7 +11,9 @@
     border: 1px solid black;
     display: grid;
     place-content: center;
+    background-color: #39445a;
 }
+
 .title{
     color: white;
     cursor: pointer;
