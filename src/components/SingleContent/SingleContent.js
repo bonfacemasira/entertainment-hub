@@ -10,12 +10,12 @@ function SingleContent({id, poster, title, date, media_type, rating}) {
                 <img className="image" src={source} alt={title} />
             </div>
             <div className="description-container">
-                <h2 className="title">{title}</h2>
+                <h3 className="title">{title}</h3>
                 <div className="holder">
                     <span>{media_type === "movie" ? "Movie" : "TV Series"}</span>
                     <span>{date}</span>
                 </div>
-                <p className="rating">{rating}</p>
+                <p className="rating">Rating: {rating}</p>
             </div>
         </div>
     )
