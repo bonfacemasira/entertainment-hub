@@ -9,14 +9,14 @@ function Footer() {
         display: 'inline-block',
         padding: '1rem',
         margin: '0.1rem',
-        border: '1px solid black',
+        border: '1px solid white',
         justifyContent: 'center',
         fontWeight: 'bold',
-        color: 'black',
+        color: 'white',
         cursor: 'pointer',
     };
     return (
-        <div className="Footer">
+        <div className="footer">
             <div className="footer-content">
             <NavLink style={linkStyles} to="/">Trending</NavLink>
             <NavLink style={linkStyles} to="/movies">Movies</NavLink>
