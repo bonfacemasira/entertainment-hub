@@ -1,8 +1,7 @@
 form.search{
     margin-top: 0.5rem;
-    width: 80%;
+    width: 60%;
     margin: auto;
-    height: inherit;
   }
   
   form.search > input[type=text] {
@@ -12,20 +11,18 @@ form.search{
     float: left;
     width: 70%;
     background: #f1f1f1;
-    height: inherit;
-    border-radius: 8px 0 0 8px;
+    border-radius: 8px;
   }
     
   form.search > button {
-    height: inherit;
-    float: left;
-    width: 20%;
-    padding: 9px 0;
-    /* background: #2196F3; */
+    width: 15%;
+    padding: 9px;
+    background: #2196F3;
     color: black;
     font-size: 1rem;
     border: 1px solid grey;
     border-left: none;
     cursor: pointer;
-    border-radius: 0 8px 8px 0;
+    border-radius: 8px;
+    margin-left: 0.5rem;
   }
