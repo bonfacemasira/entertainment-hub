@@ -17,11 +17,11 @@ function Footer() {
     return (
         <div className="footer">
             <div className="footer-content">
-            <NavLink style={linkStyles} to="/">Trending</NavLink>
-            <NavLink style={linkStyles} to="/movies">Movies</NavLink>
-            <NavLink style={linkStyles} to="/series">TV Series</NavLink>
-            <NavLink style={linkStyles} to="/search">Search</NavLink>
-            <NavLink style={linkStyles} to="/favorites">Favorites</NavLink>
+            <NavLink style={linkStyles} to="/">🔥 Trending</NavLink>
+            <NavLink style={linkStyles} to="/movies">🎞️ Movies</NavLink>
+            <NavLink style={linkStyles} to="/series">📺 TV Series</NavLink>
+            <NavLink style={linkStyles} to="/search">🔍 Search</NavLink>
+            <NavLink style={linkStyles} to="/favorites">❤️ Favorites</NavLink>
             </div>
         </div>
     )

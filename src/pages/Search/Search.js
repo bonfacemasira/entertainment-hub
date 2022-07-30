@@ -24,7 +24,7 @@ function Search() {
         <div className="search" onSubmit={handleSubmit} >
             <form className="search">
                 <input type="text" className="search-input" placeholder="Search..." onChange={(e) => setName(e.target.value)} />
-                <button type='submit' onClick={handleSubmit}>Search</button>
+                <button type='submit' onClick={handleSubmit}>🔍 Search</button>
             </form>
             <div className="trending">
                 {content.map((s) => (
