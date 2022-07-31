@@ -28,6 +28,7 @@ function Series() {
                         date={serie.release_date || serie.first_air_date}
                         media_type="TV Series"
                         rating={serie.vote_average}
+                        data={serie}
                     />
                 ))}
             </div>
