@@ -11,10 +11,10 @@
     cursor: pointer;
   }
 
-  .single-content :hover{
+  /* .single-content :hover{
     background-color: rgb(255, 255, 255);
     color: black;
-  }
+  } */
 
   .image{
     border-radius: 10px;

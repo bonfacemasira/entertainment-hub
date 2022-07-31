@@ -1,15 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ContentDetails from '../ContentDetails/ContentDetails';
 import './SingleContent.css';
+import axios from 'axios';
 
 
-function SingleContent({id, poster, title, date, media_type, rating}) {
+function SingleContent({data, id, poster, title, date, media_type, rating}) {
+    const [isShown, setIsShown] = useState(false);
+
+    const onSelect = () => {
+        axios.post("http://localhost:4000/results", data);
+    };
+
+
     let source = `https://image.tmdb.org/t/p/w1280${poster}`
+
     return (
-        <div className="single-content" key={id}>
+        <div className="single-content" key={id} onClick={() =>{onSelect(id)}}>
+            {isShown && <ContentDetails data={data} />}
             <img className="image" src={source} alt={title} />
-            {/* <div className="image-container">
-                <img className="image" src={source} alt={title} />
-            </div> */}
             <div className="description-container">
                 <p className="title">{title}</p>
                 <div className="holder">
