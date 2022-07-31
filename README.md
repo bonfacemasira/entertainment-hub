@@ -1,10 +1,11 @@
 # React Entertainment Hub
  ## By Bonface Masira
 ## Screenshot
- ![image](./assets/images/screenshot.JPG)
- ![image](./assets/images/screenshot_sort_desc.png)
- ![image](./assets/images/screenshot_dropdown.png)
- ![image](./assets/images/screenshot_search.JPG)
+ ![image](./src/images/screenshot1.JPG)
+ ![image](./src/images/screenshot2.JPG)
+ ![image](./src/images/screenshot3.JPG)
+ ![image](./src/images/screenshot4.JPG)
+ ![image](./src/images/screenshot5.JPG)
 
  ## Table of Content
  - [Description](#description)
