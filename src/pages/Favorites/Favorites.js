@@ -10,7 +10,7 @@ function Favorites() {
             top: 0,
             behavior: 'smooth',
         });
-        fetch("http://localhost:4000/results")
+        fetch("https://enternment-hubv1-server.herokuapp.com/results")
         .then(response => response.json())
         .then(data => setFavorites(data))
     }, [])
@@ -18,7 +18,7 @@ function Favorites() {
     function removeFavorite(id) {
         const updatedFavorites = favorites.filter((f) => f.id !== id);
         setFavorites(updatedFavorites);
-        axios.delete(`http://localhost:4000/results/${id}`)
+        axios.delete(`https://enternment-hubv1-server.herokuapp.com/results/${id}`)
     }
     
     return (
