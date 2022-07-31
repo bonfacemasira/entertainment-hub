@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Route, useRouteMatch  } from 'react-router-dom';
+import { Route, useParams  } from 'react-router-dom';
 import SingleContent from '../../components/SingleContent/SingleContent';
 import ContentDetails from '../../components/ContentDetails/ContentDetails';
 import './Movies.css';
@@ -18,7 +18,7 @@ function Movies() {
     },[])
     
     return(
-        <div>
+    <div>
         <h1 className="section-title">Discover Movies</h1>
         <div className="trending">
             {movies.map((movie) => (
@@ -33,6 +33,7 @@ function Movies() {
                 />
             ))}
         </div>
+        <ContentDetails data={movies}/>
     </div>
     )
 }
