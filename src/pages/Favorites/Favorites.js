@@ -1,6 +1,6 @@
 import React, {useState, useEffect } from 'react';
-import SingleContent from '../../components/SingleContent/SingleContent';
 import './Favorites.css';
+import axios from 'axios';
 
 function Favorites() {
     const [favorites, setFavorites] = useState([]);
@@ -15,8 +15,10 @@ function Favorites() {
         .then(data => setFavorites(data))
     }, [])
 
-    function removeFavorite() {
-        
+    function removeFavorite(id) {
+        const updatedFavorites = favorites.filter((f) => f.id !== id);
+        setFavorites(updatedFavorites);
+        axios.delete(`http://localhost:4000/results/${id}`)
     }
     
     return (
@@ -33,7 +35,7 @@ function Favorites() {
                         <span>{favorite.date}</span>
                     </div>
                     <p className="rating">Rating: {favorite.vote_average}</p>
-                    <button onClick={removeFavorite}>REMOVE</button>
+                    <button onClick={() => (removeFavorite(favorite.id))}>REMOVE</button>
                 </div>
             </div>
             ))}
