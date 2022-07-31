@@ -29,8 +29,8 @@ function Search() {
             <div className="trending">
                 {content.map((s) => (
                     <SingleContent 
-                        key={s._id}
-                        id={s._id}
+                        key={s.id}
+                        id={s.id}
                         poster={s.poster_path}
                         title={s.title || s.name}
                         date={s.release_date || s.first_air_date}

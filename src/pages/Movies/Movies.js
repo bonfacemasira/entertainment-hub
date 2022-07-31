@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { Route, useRouteMatch  } from 'react-router-dom';
 import SingleContent from '../../components/SingleContent/SingleContent';
+import ContentDetails from '../../components/ContentDetails/ContentDetails';
 import './Movies.css';
 
 function Movies() {
@@ -21,7 +23,7 @@ function Movies() {
         <div className="trending">
             {movies.map((movie) => (
                 <SingleContent 
-                    key={movie._id}
+                    key={movie.id}
                     id={movie._id}
                     poster={movie.poster_path}
                     title={movie.title || movie.name}

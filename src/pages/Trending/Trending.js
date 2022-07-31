@@ -22,8 +22,8 @@ function Trending() {
             <div className="trending">
                 {trending.map((trend) => (
                     <SingleContent 
-                        key={trend._id}
-                        id={trend._id}
+                        key={trend.id}
+                        id={trend.id}
                         poster={trend.poster_path}
                         title={trend.title || trend.name}
                         date={trend.release_date || trend.first_air_date}

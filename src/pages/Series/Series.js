@@ -21,8 +21,8 @@ function Series() {
             <div className="trending">
                 {series.map((serie) => (
                     <SingleContent 
-                        key={serie._id}
-                        id={serie._id}
+                        key={serie.id}
+                        id={serie.id}
                         poster={serie.poster_path}
                         title={serie.title || serie.name}
                         date={serie.release_date || serie.first_air_date}

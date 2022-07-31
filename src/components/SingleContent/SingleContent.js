@@ -5,7 +5,7 @@ import './SingleContent.css';
 function SingleContent({id, poster, title, date, media_type, rating}) {
     let source = `https://image.tmdb.org/t/p/w1280${poster}`
     return (
-        <div className="single-content">
+        <div className="single-content" key={id}>
             <img className="image" src={source} alt={title} />
             {/* <div className="image-container">
                 <img className="image" src={source} alt={title} />
