@@ -15,8 +15,7 @@ function SingleContent({data, id, poster, title, date, media_type, rating}) {
     let source = `https://image.tmdb.org/t/p/w1280${poster}`
 
     return (
-        <div className="single-content" key={id} onClick={() =>{onSelect(id)}}>
-            {isShown && <ContentDetails data={data} />}
+        <div className="single-content" key={id} >
             <img className="image" src={source} alt={title} />
             <div className="description-container">
                 <p className="title">{title}</p>
@@ -26,6 +25,7 @@ function SingleContent({data, id, poster, title, date, media_type, rating}) {
                 </div>
                 <p className="rating">Rating: {rating}</p>
             </div>
+            <button onClick={() =>{onSelect(id)}}>Add to Favorite</button>
         </div>
     )
 }
