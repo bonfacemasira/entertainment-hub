@@ -36,6 +36,7 @@ function Search() {
                         date={s.release_date || s.first_air_date}
                         media_type={s.media_type}
                         rating={s.vote_average}
+                        data={s}
                     />
                 ))}
             </div>

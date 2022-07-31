@@ -14,24 +14,30 @@ function Favorites() {
         .then(response => response.json())
         .then(data => setFavorites(data))
     }, [])
+
+    function removeFavorite() {
+        
+    }
     
     return (
     <div>
         <h1 className="section-title">Favorites</h1>
         <div className="trending">
             {favorites.map((favorite) => (
-                <SingleContent 
-                    key={favorite.id}
-                    id={favorite._id}
-                    poster={favorite.poster_path}
-                    title={favorite.title || favorite.name}
-                    date={favorite.release_date || favorite.first_air_date}
-                    media_type={favorite.media_type}
-                    rating={favorite.vote_average}
-                />
+                <div className="single-content" key={favorite.id} >
+                <img className="image" src={`https://image.tmdb.org/t/p/w1280${favorite.poster_path}`} alt={favorite.title} />
+                <div className="description-container">
+                    <p className="title">{favorite.title}</p>
+                    <div className="holder">
+                        <span>{favorite.media_type === "movie" ? "Movie" : "TV Series"}</span>
+                        <span>{favorite.date}</span>
+                    </div>
+                    <p className="rating">Rating: {favorite.vote_average}</p>
+                    <button onClick={removeFavorite}>REMOVE</button>
+                </div>
+            </div>
             ))}
         </div>
-        {/* <ContentDetails data={movies}/> */}
     </div>
     )
 }

@@ -4,7 +4,10 @@ import SingleContent from '../../components/SingleContent/SingleContent';
 
 function Trending() {
     const [trending, setTrending] = useState([])
+    const [favorites, setFavorites] = useState([]);
     // const [page, setPage] = useState(1)
+
+    console.log(favorites)
 
     useEffect(() => {
         window.scrollTo({
@@ -15,6 +18,7 @@ function Trending() {
         .then(res => res.json())
         .then(data => setTrending(data.results))
     }, [])
+    
     return(
         <div>
             <h1 className='section-title'>Trending</h1>
@@ -28,6 +32,9 @@ function Trending() {
                         date={trend.release_date || trend.first_air_date}
                         media_type={trend.media_type}
                         rating={trend.vote_average}
+                        data={trend}
+                        favorites={favorites}
+                        setFavorites={setFavorites}
                     />
                 ))}
             </div>

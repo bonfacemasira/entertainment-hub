@@ -30,6 +30,7 @@ function Movies() {
                     date={movie.release_date || movie.first_air_date}
                     media_type="Movie"
                     rating={movie.vote_average}
+                    data={movie}
                 />
             ))}
         </div>
