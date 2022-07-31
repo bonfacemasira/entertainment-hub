@@ -48,7 +48,7 @@ As a user of the application, you will be able to :
  ****
 
 ### Live Link
-- Click this link to view the live application https://bonfacemasira.github.io/MovieHub/
+- Click this link to view the live application https://entertainment-hub-v1.herokuapp.com/
 
 ### Technology  Used
 * HTML - which was used to develope the structure of the web application
