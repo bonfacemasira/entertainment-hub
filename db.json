@@ -83,6 +83,290 @@
       "video": false,
       "vote_average": 6.716,
       "vote_count": 1495
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/33qGtN2GpGEb94pn25PDPeWQZLk.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "id": 894169,
+      "original_language": "en",
+      "original_title": "Vendetta",
+      "overview": "When his daughter is murdered, William Duncan takes the law into his own hands, setting out on a quest for retribution. After killing the street thug responsible for her death, he finds himself in the middle of a war with the thug's brother, father, and their gang, who are equally hell-bent on getting even. What ensues is a tense back-and-forth game of vengeance. By the end, William comes to find that the quest for revenge never has a winner.",
+      "popularity": 1440.46,
+      "poster_path": "/7InGE2Sux0o9WGbbn0bl7nZzqEc.jpg",
+      "release_date": "2022-05-17",
+      "title": "Vendetta",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 109
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4dNv1W1KMSLdYGz0tCEaynF0E4Q.jpg",
+      "genre_ids": [
+        28,
+        53,
+        80
+      ],
+      "id": 854467,
+      "original_language": "en",
+      "original_title": "Indemnity",
+      "overview": "An ex-fireman with PTSD goes on the run when accused of a crime he doesn't even remember committing, leading him down a rabbit hole of conspiracy to the highest degree.",
+      "popularity": 1560.465,
+      "poster_path": "/tVbO8EAbegVtVkrl8wNhzoxS84N.jpg",
+      "release_date": "2022-02-11",
+      "title": "Indemnity",
+      "video": false,
+      "vote_average": 6.3,
+      "vote_count": 21
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/t0mwKhUDa62hdhdKSsN4xMfhY5Z.jpg",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "id": 626735,
+      "original_language": "en",
+      "original_title": "Dog",
+      "overview": "An army ranger and his dog embark on a road trip along the Pacific Coast Highway to attend a friend's funeral.",
+      "popularity": 1370.786,
+      "poster_path": "/rkpLvPDe0ZE62buUS32exdNr7zD.jpg",
+      "release_date": "2022-02-17",
+      "title": "Dog",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 713
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/g3pG27i0v6eKWDKLf4GQsKZxmZX.jpg",
+      "genre_ids": [
+        53,
+        28
+      ],
+      "id": 888195,
+      "original_language": "en",
+      "original_title": "Hot Seat",
+      "overview": "An ex-hacker is forced to break into high-level banking institutions, another man must try to penetrate the booby-trapped building to get the young man off the hot seat.",
+      "popularity": 1327.706,
+      "poster_path": "/TUmSO5EPIZAfRSOEjmbrgbTw8i.jpg",
+      "release_date": "2022-07-01",
+      "title": "Hot Seat",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 30
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/27Mj3rFYP3xqFy7lnz17vEd8Ms.jpg",
+      "id": 725201,
+      "title": "The Gray Man",
+      "original_language": "en",
+      "original_title": "The Gray Man",
+      "overview": "When a shadowy CIA agent uncovers damning agency secrets, he's hunted across the globe by a sociopathic rogue operative who's put a bounty on his head.",
+      "poster_path": "/8cXbitsS6dWQ5gfMTZdorpAAzEH.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        28,
+        53
+      ],
+      "popularity": 3842.08,
+      "release_date": "2022-07-13",
+      "video": false,
+      "vote_average": 6.998,
+      "vote_count": 1014
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/iQlJyRecJeGGzQGT2rEcyAgz89F.jpg",
+      "id": 762975,
+      "title": "Purple Hearts",
+      "original_language": "en",
+      "original_title": "Purple Hearts",
+      "overview": "An aspiring musician agrees to a marriage of convenience with a soon-to-deploy Marine, but a tragedy soon turns their fake relationship all too real.",
+      "poster_path": "/clAMlA3DcwKMJIYeAFGGN0vyJQp.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "popularity": 209.332,
+      "release_date": "2022-07-29",
+      "video": false,
+      "vote_average": 8.557,
+      "vote_count": 167
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qTkJ6kbTeSjqfHCFCmWnfWZJOtm.jpg",
+      "genre_ids": [
+        10751,
+        16,
+        12,
+        35,
+        14
+      ],
+      "id": 438148,
+      "original_language": "en",
+      "original_title": "Minions: The Rise of Gru",
+      "overview": "A fanboy of a supervillain supergroup known as the Vicious 6, Gru hatches a plan to become evil enough to join them, with the backup of his followers, the Minions.",
+      "popularity": 8255.85,
+      "poster_path": "/wKiOkZTN9lUUUNZLmtnwubZYONg.jpg",
+      "release_date": "2022-06-29",
+      "title": "Minions: The Rise of Gru",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 555
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/odJ4hx6g6vBt4lBWKFD1tI8WS4x.jpg",
+      "genre_ids": [
+        28,
+        18
+      ],
+      "id": 361743,
+      "original_language": "en",
+      "original_title": "Top Gun: Maverick",
+      "overview": "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
+      "popularity": 7141.006,
+      "poster_path": "/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
+      "release_date": "2022-05-24",
+      "title": "Top Gun: Maverick",
+      "video": false,
+      "vote_average": 8.3,
+      "vote_count": 1762
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/SYj0F3cmJzx4qlgsBWfLB5oaWP.jpg",
+      "id": 201380,
+      "name": "Uncoupled",
+      "original_language": "en",
+      "original_name": "Uncoupled",
+      "overview": "Michael thought his life was perfect until his husband blindsided him by walking out after 17 years. Michael has to confront two nightmares - losing his soulmate and suddenly finding himself a single gay man in his mid-40s.",
+      "poster_path": "/ckwIGJghs2AuUcjyhByRlXNMBYZ.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        35,
+        10766
+      ],
+      "popularity": 64.77,
+      "first_air_date": "2022-07-29",
+      "vote_average": 7.3,
+      "vote_count": 9,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/wjvmlgpiL0LK1AoFQeC8wtiVRsa.jpg",
+      "id": 929170,
+      "title": "Honor Society",
+      "original_language": "en",
+      "original_title": "Honor Society",
+      "overview": "Honor is an ambitious high school senior whose sole focus is getting into Harvard, assuming she can first score the coveted recommendation from her guidance counselor, Mr. Calvin. Willing to do whatever it takes, Honor concocts a Machiavellian-like plan to take down her top three student competitors, until things take a turn when she unexpectedly falls for her biggest competition, Michael.",
+      "poster_path": "/1oeN5NtPM8SP6SZkpsZO6BWiegl.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        35
+      ],
+      "popularity": 44.762,
+      "release_date": "2022-07-23",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 12
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/wp3vpSWAIjKSEeYb8F5NSZfONqw.jpg",
+      "id": 545611,
+      "title": "Everything Everywhere All at Once",
+      "original_language": "en",
+      "original_title": "Everything Everywhere All at Once",
+      "overview": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what's important to her by connecting with the lives she could have led in other universes.",
+      "poster_path": "/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "popularity": 386.542,
+      "release_date": "2022-03-24",
+      "video": false,
+      "vote_average": 8.237,
+      "vote_count": 1121
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/wcKFYIiVDvRURrzglV9kGu7fpfY.jpg",
+      "id": 453395,
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "original_language": "en",
+      "original_title": "Doctor Strange in the Multiverse of Madness",
+      "overview": "Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.",
+      "poster_path": "/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        14,
+        28,
+        12
+      ],
+      "popularity": 4117.325,
+      "release_date": "2022-05-04",
+      "video": false,
+      "vote_average": 7.516,
+      "vote_count": 4965
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/epqmt81XZc7gd7YQfBLIiy3df85.jpg",
+      "id": 127641,
+      "name": "Surface",
+      "original_language": "en",
+      "original_name": "Surface",
+      "overview": "A traumatic head injury leaves Sophie with extreme memory loss. In her quest to put the pieces of her life back together—with help from her husband and friends—Sophie begins to question the truth behind her picture-perfect life.",
+      "poster_path": "/6fb4VZT2KLufrpSBs5YF83DZNtD.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18
+      ],
+      "popularity": 84.244,
+      "first_air_date": "2022-07-28",
+      "vote_average": 5.444,
+      "vote_count": 9,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/wng1Vvh62AS8IdzbScFl9Tm3R1P.jpg",
+      "id": 205788,
+      "name": "Justice Served",
+      "original_language": "en",
+      "original_name": "Justice Served",
+      "overview": "A band of freedom fighters invade the trial of a white police officer who shot a Black man — and a hostage situation unfolds on screens nationwide.",
+      "poster_path": "/gOXZns3CxiPh5DN6CxWEKtML3Yw.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        10759
+      ],
+      "popularity": 54.519,
+      "first_air_date": "2022-07-29",
+      "vote_average": 7,
+      "vote_count": 8,
+      "origin_country": [
+        "ZA"
+      ]
     }
   ]
 }
