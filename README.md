@@ -14,6 +14,7 @@
  - [Requirements](#requirements)
  - [Installation Process](#installation-Process)
  - [Live Link](#Live-Link)
+ - [Backend Repository](#backend-repository)
  - [Technology  Used](#technology-Used)
  - [Authors Info](#Authors-Info)
 
@@ -49,6 +50,9 @@ As a user of the application, you will be able to :
 
 ### Live Link
 - Click this link to view the live application https://entertainment-hub-v1.herokuapp.com/
+
+### Backend Repository
+- Click this link to view the live application https://github.com/bonfacemasira/json-server-template
 
 ### Technology  Used
 * HTML - which was used to develope the structure of the web application
