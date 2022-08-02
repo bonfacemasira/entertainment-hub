@@ -6,13 +6,19 @@ import { Modal } from 'react-bootstrap';
 
 
 function SingleContent({data, id, poster, title, date, media_type, rating}) {
-    const [showStatus,setShowStatus] =useState(false)
+    const [showStatus,setShowStatus] =useState(false);
+    const [addToFavorites,setAddToFavorites] =useState(false);
+
+    function handleAddToFavorites() {
+        setAddToFavorites(true);
+    }
 
     const handleShow = () => setShowStatus(true)
     const handleClose = () => setShowStatus(false)
 
     const onSelect = () => {
         axios.post("https://enternment-hubv1-server.herokuapp.com/results", data);
+        handleAddToFavorites();
     };
 
 
@@ -30,9 +36,9 @@ function SingleContent({data, id, poster, title, date, media_type, rating}) {
                     </div>
                     <p className="rating">Rating: {rating}</p>
                 </div>
-                <button onClick={() =>{onSelect(id)}}>Add to Favorite</button>
+                <button onClick={() =>{onSelect(id)}}>{addToFavorites ? "Added" : "Add to Favorites"}</button>
             </div>
-            <Modal open={showStatus} onClose={handleClose} className="rating-modal">
+            <Modal open={handleShow} onClose={handleClose} className="rating-modal">
                 <Modal.Header closeButton></Modal.Header>
                 <Modal.Body>
                     <ContentDetails data={data} />
