@@ -10,6 +10,7 @@ import Movies from './pages/Movies/Movies';
 import Series from './pages/Series/Series';
 import Search from './pages/Search/Search';
 import Favorites from './pages/Favorites/Favorites';
+import Form from './pages/Form/Form';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/series/:id" element={<Series />} />
           <Route path="/search" element={<Search />} />
           <Route path="/favorites" element={<Favorites />} />
+          <Route path="/form" element={<Form />} />
         </Routes>
       </div>
       <Footer />
