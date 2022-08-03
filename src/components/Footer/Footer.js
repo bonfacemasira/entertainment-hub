@@ -22,6 +22,7 @@ function Footer() {
             <NavLink style={linkStyles} to="/series">📺 TV Series</NavLink>
             <NavLink style={linkStyles} to="/search">🔍 Search</NavLink>
             <NavLink style={linkStyles} to="/favorites">❤️ Favorites</NavLink>
+            <NavLink style={linkStyles} to="/form">📝 Form</NavLink>
             </div>
         </div>
     )
